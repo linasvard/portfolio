@@ -1,5 +1,5 @@
 {
-  "name": "portfolio-front-end-gd",
+  "name": "my-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "sass": "^1.98.0",
     "typescript": "~5.9.3",
     "vite": "^8.0.1"
   }
