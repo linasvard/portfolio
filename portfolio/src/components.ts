@@ -10,8 +10,8 @@ if (navbar) {
       </div>
       <div>
         <a class="logo-back-to-home" href="/index.html">
-            <img src="/bild.jpg" />
-        <a>
+          l.s
+        </a>
       </div>      
     </nav>
   `;
