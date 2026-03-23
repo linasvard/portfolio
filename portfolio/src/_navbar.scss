@@ -11,9 +11,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+  height: 70px;
   margin: 0 auto;
-  padding: 20px 20px;
+  padding: 0 20px;
   
   
 
@@ -60,3 +60,7 @@
 .logo-back-to-home:hover {
     color: var(--third-color)
 }
+
+
+#navbar       { display: block; } /* visible on desktop */
+#navbarMobile { display: none;  } /* hidden on desktop  */
