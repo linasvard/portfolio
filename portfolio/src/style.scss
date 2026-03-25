@@ -1,17 +1,43 @@
-:root {
-  --text: #6b6375;
-  --text-h: #08060d;
-  --bg: #fff;
-  --border: #e5e4e7;
-  --code-bg: #f4f3ec;
-  --accent: #aa3bff;
-  --accent-bg: rgba(170, 59, 255, 0.1);
-  --accent-border: rgba(170, 59, 255, 0.5);
-  --social-bg: rgba(244, 243, 236, 0.5);
-  --shadow:
-    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+@use "./navbar.scss";
+@use "./hero-pic";
+@use "./mobile";
+@use "./tablet";
 
-  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --mono: ui-monospace, Consolas, monospace;
+
+
+:root {
+  --primary-color: #490049;
+  --secondary-color: rgb(242, 233, 244);
+  --third-color: rgb(255, 57, 159);
+}
+
+
+
+body {
+  font-family: "filson-pro", sans-serif;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  
+}
+
+header, main {
+  max-width: 1800px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+main {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 30px 0;
+  width: 100%;
+  
+  background-color: var(--secondary-color);
+
+
 }
