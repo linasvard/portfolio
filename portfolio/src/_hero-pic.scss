@@ -1,0 +1,29 @@
+.hero-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;   
+  padding: 0 100px;  
+  margin-top: -60px;
+  position: relative;
+  
+  
+  h1 {
+    font-size: 5rem;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  img {
+   
+    width: 400px;
+    height: auto;
+  }
+}
+
+.hero-title {
+  text-align: left;
+}
