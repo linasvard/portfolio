@@ -1,0 +1,29 @@
+.projects-wrapper {
+    
+    h1 {
+        text-align: center;
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+}
+
+.projects-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.projects-item-image {
+    width: 100%;
+    height: 100%;
+
+    img {
+        width: 100%;
+        height: 650px;
+        object-fit: cover;
+    }
+}

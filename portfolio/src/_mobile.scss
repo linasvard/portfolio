@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 850px) {
   #navbar       { display: none;  } /* hidden on mobile  */
   #navbarMobile { display: block; } /* visible on mobile */
 
@@ -7,7 +7,32 @@
     padding: 17px 0 17px 30px;
     
   }
+
+  main {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px 0;
+    border-left: none;
+    border-right: none;
+  }
+
+  body {
+    padding: 10px;
+
+  }
+
+  .hero-wrapper {
   
+
+    h1 {
+      font-size: 3.8rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+    }
+  }
 
 }
 
@@ -93,3 +118,4 @@
 .mobile-drawer a:hover {
   color: var(--third-color);
 }
+

@@ -2,31 +2,32 @@
 @use "./hero-pic";
 @use "./mobile";
 @use "./tablet";
-
+@use "./projects";
 
 
 :root {
-  --primary-color: #490049;
-  --secondary-color: rgb(242, 233, 244);
+  --primary-color: rgb(35, 1, 43);
+  --secondary-color: rgb(238, 238, 238);
   --third-color: rgb(255, 57, 159);
 }
 
 
 
 body {
-  font-family: "filson-pro", sans-serif;
+  font-family: "forma-djr-text", sans-serif;
   display: grid;
   grid-template-columns: 1fr;
   margin: 0;
   color: var(--primary-color);
   background-color: var(--secondary-color);
-  
+  padding: 0 30px;
 }
 
 header, main {
-  max-width: 1800px;
+  max-width: 1300px;
   margin: 0 auto;
   width: 100%;
+  padding: 10px 0;
 }
 
 
@@ -34,10 +35,10 @@ main {
   margin-top: 40px;
   display: grid;
   grid-template-columns: 1fr;
-  padding: 30px 0;
+
   width: 100%;
   
   background-color: var(--secondary-color);
-
+  margin: 0 auto;
 
 }

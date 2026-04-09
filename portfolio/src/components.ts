@@ -4,16 +4,26 @@ if (navbar) {
   navbar.innerHTML = `
     <nav class="navbar-top">
       <div class="links-navbar">
-        <a href="/index.html">Home</a>
-        <a href="#">Work</a>
-        <a href="/about-me.html">About me</a>
-        <a href="/gallery.html">Gallery</a>
+        <div class="menu-links-left">
+          <a href="/index.html">Home</a>
+          <a href="#">Work</a>
+        </div>
+        <div class="logo-navbar">
+          <div>
+            <a class="logo-back-to-home" href="/index.html">
+              Lina Svärd
+            </a>
+            <h1>Front End Student & Graphic Designer</h1>
+          </div>
+        </div>
+        <div class="menu-links-right">
+          <a href="/about-me.html">About me</a>
+          <a href="/gallery.html">Gallery</a>
+        </div>
+        
+        
       </div>
-      <div>
-        <a class="logo-back-to-home" href="/index.html">
-          l.s
-        </a>
-      </div>
+      
     </nav>
   `;
 }
@@ -30,11 +40,11 @@ if (navbarMobile) {
         aria-expanded="false"
         aria-controls="mobile-drawer"
       >
-        menu
+        MENU
         <span></span>
         
       </button>
-      <a class="logo-back-to-home" href="/index.html">l.s</a>
+      <a class="logo-back-to-home" href="/index.html">L.S</a>
     </nav>
 
     <div class="mobile-drawer" id="mobile-drawer">
