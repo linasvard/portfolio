@@ -9,9 +9,12 @@ if (navbar) {
           <a href="#">Work</a>
         </div>
         <div class="logo-navbar">
-          <a class="logo-back-to-home" href="/index.html">
-            Lina Svärd
-          </a>
+          <div>
+            <a class="logo-back-to-home" href="/index.html">
+              Lina Svärd
+            </a>
+            <h1>Front End Student & Graphic Designer</h1>
+          </div>
         </div>
         <div class="menu-links-right">
           <a href="/about-me.html">About me</a>

@@ -9,7 +9,7 @@
 .navbar-top {
   height: 100%;
   margin: 0 auto;
-  padding: 28px 10px;
+  padding: 20px 10px 10px 10px;
   
   
 
@@ -48,7 +48,13 @@
         color: inherit;
         font-weight: 1000;
         font-size: 3rem; 
-        letter-spacing: -0.2rem;   
+        letter-spacing: -0.05rem;   
+    }
+    h1 {
+        font-size: 1rem;
+        text-align: center;
+        margin-top: -5px;
+        font-weight: 500;
     }
 }
 
@@ -57,7 +63,7 @@
         font-size: 1.3rem;
         text-decoration: none;
         color: inherit;
-        letter-spacing: -0.1rem;
+        letter-spacing: -0.05rem;
     }
 
     a:hover {
