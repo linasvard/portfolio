@@ -20,13 +20,14 @@ body {
   margin: 0;
   color: var(--primary-color);
   background-color: var(--secondary-color);
-  padding: 0 45px;
+  padding: 0 30px;
 }
 
 header, main {
   max-width: 1300px;
   margin: 0 auto;
   width: 100%;
+  padding: 10px 0;
 }
 
 
@@ -34,7 +35,7 @@ main {
   margin-top: 40px;
   display: grid;
   grid-template-columns: 1fr;
-  padding: 50px 0;
+
   width: 100%;
   
   background-color: var(--secondary-color);

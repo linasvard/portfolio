@@ -9,14 +9,12 @@
 .navbar-top {
   height: 100%;
   margin: 0 auto;
-  padding: 20px 10px 10px 10px;
+  padding: 20px 30px 0px 30px;
   
   
 
 
     a {
-        margin: 0 35px;
-        
         text-transform: uppercase;
         font-weight: 900;
         font-size: 2rem;    
@@ -27,14 +25,14 @@
 .menu-links-left {
     display: flex;
     justify-content: flex-start;
-    gap: 60px;
+    gap: 25%;
     align-items: center;
 }
 
 .menu-links-right {
     display: flex;
     justify-content: flex-end;
-    gap: 60px;
+    gap: 25%;
     align-items: center;
 }
 
