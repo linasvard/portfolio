@@ -6,15 +6,15 @@
 
 
 :root {
-  --primary-color: #490049;
-  --secondary-color: rgb(223, 218, 223);
+  --primary-color: rgb(35, 1, 43);
+  --secondary-color: rgb(238, 238, 238);
   --third-color: rgb(255, 57, 159);
 }
 
 
 
 body {
-  font-family: "filson-pro", sans-serif;
+  font-family: "forma-djr-text", sans-serif;
   display: grid;
   grid-template-columns: 1fr;
   margin: 0;
@@ -36,8 +36,7 @@ main {
   grid-template-columns: 1fr;
   padding: 50px 0;
   width: 100%;
-  border-left: 2px solid var(--primary-color);
-  border-right: 2px solid var(--primary-color);
+  
   background-color: var(--secondary-color);
   margin: 0 auto;
 
