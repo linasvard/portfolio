@@ -44,7 +44,7 @@ if (navbarMobile) {
         <span></span>
         
       </button>
-      <a class="logo-back-to-home" href="/index.html">L.S</a>
+      <a class="logo-back-to-home" href="/index.html">Lina</a>
     </nav>
 
     <div class="mobile-drawer" id="mobile-drawer">
