@@ -45,10 +45,23 @@
       </section>
       <section id="about" class="about-wrapper">
         <div class="about-image-wrapper">
-          <img class="round-image" src="/lina-profile-m.jpeg"/>
+          <!-- <h1>Om mig</h1> -->
+          <!--<img class="profile-image" src="/lina-profile-m.jpeg"/>-->
+          <svg viewBox="0 0 400 480" width="600">
+            <defs>
+              <path id="curve" d="M 40,245 A 200,250 0 0 1 360,245" fill="none"/>
+              <clipPath id="circleClip">
+                <circle cx="200" cy="300" r="150"/>
+              </clipPath>
+            </defs>
+            <image href="./lina-profile-m.jpeg" x="50" y="150" width="300" height="300" clip-path="url(#circleClip)" preserveAspectRatio="xMidYMid slice"/>
+            <text font-weight="900" font-size="2.5rem" fill="#2B1A4A" letter-spacing="-0.5" text-anchor="middle"transform="rotate(-20 190 300)">
+              <textPath href="#curve" startOffset="50%" text-anchor="middle">LITE OM MIG</textPath>
+            </text>
+          </svg>
         </div>
         <div class="about-text-wrapper">
-          <h1 class="about-title">About me</h1>
+          <h2 class="about-title">About me</h2>
           <p class="about-text">I am a designer and developer based in Stockholm, Sweden. I have a background in visual communication and a passion for creating meaningful digital experiences. My work spans across web design, UI/UX, and interactive media.</p>
         </div>
       </section>
