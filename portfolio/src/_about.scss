@@ -1,0 +1,14 @@
+.about-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+}
+
+.round-image {
+  border-radius: 50%;
+  max-width: 500px;
+
+  object-fit: cover;
+}
