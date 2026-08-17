@@ -1,4 +1,13 @@
 @media (max-width: 768px) {
+
+    .about-wrapper {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .about-image {
+        margin-top: -50px;
+    }
   
     
 
