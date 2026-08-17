@@ -2,3 +2,27 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+.icon-container {
+    width: 100%;
+    height: 100%;
+    max-width: 100px;
+
+    img {
+        display: block;
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+    }
+
+
+}
+
+.tech-icon-wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
