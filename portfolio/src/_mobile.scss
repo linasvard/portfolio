@@ -1,9 +1,9 @@
-@media (max-width: 850px) {
+@media (max-width: 500px) {
   #navbar       { display: none;  } /* hidden on mobile  */
   #navbarMobile { display: block; } /* visible on mobile */
 
   .logo-back-to-home {
-   
+    
     padding: 17px 0 17px 30px;
     
   }
@@ -32,6 +32,11 @@
     p {
       font-size: 1.2rem;
     }
+  }
+
+  .about-wrapper {
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
 
 }

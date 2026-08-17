@@ -43,6 +43,28 @@
         </div>
 
       </section>
+      <section id="about" class="about-wrapper">
+        <div class="about-image-wrapper">
+          <!-- <h1>Om mig</h1> -->
+          <!--<img class="profile-image" src="/lina-profile-m.jpeg"/>-->
+          <svg class="about-image" viewBox="0 0 400 480" width="600">
+            <defs>
+              <path id="curve" d="M 40,245 A 200,250 0 0 1 360,245" fill="none"/>
+              <clipPath id="circleClip">
+                <circle cx="200" cy="300" r="150"/>
+              </clipPath>
+            </defs>
+            <image href="./lina-profile-m.jpeg" x="50" y="150" width="300" height="300" clip-path="url(#circleClip)" preserveAspectRatio="xMidYMid slice"/>
+            <text font-weight="1000" font-size="2rem" fill="var(--primary-color)" letter-spacing="-0.05rem" text-anchor="middle" transform="rotate(-20 190 300)">
+              <textPath href="#curve" startOffset="50%" text-anchor="middle">LITE OM MIG</textPath>
+            </text>
+          </svg>
+        </div>
+        <div class="about-text-wrapper">
+          <h2 class="about-title">Hej, Lina heter jag!</h2>
+          <p class="about-text">En frontendutvecklare under utbildning med en kandidatexamen i grafisk design, en kombination som gör att jag förstår både koden och känslan bakom ett gränssnitt. Jag innehar kunskaper inom HTML, CSS, Sass, JavaScript, TypeScript och Figma, och kommer även vid LIA-start ha kurser i React och API-integration bakom mig. Nu söker jag en praktikplats där jag kan växa som frontendutvecklare i ett engagerat team.</p>
+        </div>
+      </section>
     </main>
     <script type="module" src="/src/main.ts"></script>
   </body>

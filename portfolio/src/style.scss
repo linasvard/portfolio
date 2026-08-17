@@ -3,7 +3,7 @@
 @use "./mobile";
 @use "./tablet";
 @use "./projects";
-
+@use "./about";
 
 :root {
   --primary-color: rgb(35, 1, 43);
@@ -44,5 +44,13 @@ main {
   
   background-color: var(--secondary-color);
   margin: 0 auto;
+
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  margin-bottom: 20px;
+  max-width: 620px;
 
 }
