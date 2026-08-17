@@ -11,8 +11,45 @@
   </head>
   <body>
     <header>
-      <div id="navbar" class="navbar-top-wrapper"></div>
-      <div id="navbarMobile" class="navbar-top-wrapper"></div>
+
+      <!--- Desktop navbar -->
+      <div id="navbar" class="navbar-top-wrapper">
+        <nav class="navbar-top">
+          <div class="links-navbar">
+            <div class="menu-links-left">
+              <a href="/index.html">Home</a>
+              <a href="#projects">Work</a>
+            </div>
+            <div class="logo-navbar">
+              <div>
+                <a class="logo-back-to-home" href="/index.html">
+                  Lina Svärd
+                </a>
+                <h1>Front End Student & Graphic Designer</h1>
+              </div>
+            </div>
+            <div class="menu-links-right">
+              <a href="#about">About me</a>
+              <a href="/gallery.html">Gallery</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!--- Mobile navbar -->
+      <div id="navbarMobile" class="navbar-top-wrapper">
+        <nav class="navbar-mobile">
+          <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-drawer">MENU
+            <span></span>
+          </button>
+          <a class="logo-back-to-home" href="/index.html">Lina</a>
+        </nav>
+        <div class="mobile-drawer" id="mobile-drawer">
+          <a href="/index.html">Home</a>
+          <a href="#projects">Work</a>
+          <a href="#about">About me</a>
+          <a href="/gallery.html">Gallery</a>
+        </div>
+      </div>
     </header>
     <main>
       <div class="hero-wrapper">

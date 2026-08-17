@@ -1,11 +1,9 @@
-@media (max-width: 500px) {
-  #navbar       { display: none;  } /* hidden on mobile  */
-  #navbarMobile { display: block; } /* visible on mobile */
+@media (max-width: 800px) {
+
+  
 
   .logo-back-to-home {
-    
     padding: 17px 0 17px 30px;
-    
   }
 
   main {
