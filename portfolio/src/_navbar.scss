@@ -1,3 +1,7 @@
+#navbarMobile {
+    display: none;
+}
+
 .navbar-top-wrapper {
     position: fixed;
     width: 100%;
@@ -7,6 +11,8 @@
 }
 
 .navbar-top {
+    
+    align-items: center;
   height: 100%;
   margin: 0 auto;
   padding: 15px 30px 20px 30px;
@@ -87,6 +93,29 @@
     color: var(--third-color)
 }
 
+// Tablet view
 
-#navbar       { display: block; } /* visible on desktop */
-#navbarMobile { display: none;  } /* hidden on desktop  */
+@media (min-width: 601px) and (max-width: 1024px) {
+
+    #navbar {
+        display: none;
+    }
+
+    #navbarMobile {
+        display: block;
+    }
+    
+}
+
+// Mobile view
+
+@media (max-width: 600px) {
+
+    #navbar {
+        display: none;
+    }
+    #navbarMobile {
+        display: block;
+    }
+    
+}
