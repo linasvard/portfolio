@@ -61,3 +61,28 @@
         object-fit: cover;
     }
 }
+
+@media (min-width: 601px) and (max-width: 1024px) {
+     .projects-item-small {
+        
+        grid-template-columns: 1fr;
+        gap: 40px;
+
+    }
+
+    
+}
+
+// Mobile view
+
+@media (max-width: 600px) {
+
+    .projects-item-small {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        background-color: red;
+    }
+
+ 
+}
