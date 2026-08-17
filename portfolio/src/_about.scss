@@ -1,9 +1,9 @@
 .about-wrapper {
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   padding: 10px 0;
-  gap: 30px;
+  gap: 10px;
 
 
   h2 {
@@ -13,3 +13,16 @@
 
 }
 
+.about-image {
+  width: 100%;
+  height: auto;
+ margin-top: -80px;
+
+}
+
+.about-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
