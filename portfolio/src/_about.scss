@@ -4,11 +4,11 @@
   overflow: hidden;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
+  
   padding: 10px 0;
   gap: 10px;
   background: var(--secondary-color);
-
+  height: 100%;
 
   h2 {
     font-size: 1.5rem;
@@ -18,8 +18,8 @@
   p {
     font-size: 1.2rem;
     line-height: 1.6rem;
-    margin-bottom: 20px;
     max-width: 550px;
+
   }
 
 
@@ -28,13 +28,19 @@
 .about-wrapper::before {
   content: "";
   position: absolute;
-  inset: -15%;
+  inset: -10%;
   background:
-    radial-gradient(ellipse 30% 75% at 25% 5%, color-mix(in srgb, var(--gradient-color) 40%, white) 0%, transparent 70%), //ROSA
-    radial-gradient(ellipse 30% 85% at 87% 20%, color-mix(in srgb, var(--gradient-color) 40%, white) 0%, transparent 70%), //lil
-    radial-gradient(ellipse 40% 40% at 50% 75%, color-mix(in srgb, var(--third-color) 30%, white) 0%, transparent 90%); // test
-  filter: blur(70px);
+  radial-gradient(ellipse 25% 20% at 35% 35%, color-mix(in srgb, var(--gradient-color) 70%, var(--secondary-color)) 0%, transparent 70%), /* rosa */
+  radial-gradient(ellipse 30% 40% at 70% 40%, color-mix(in srgb, var(--gradient-color2) 50%, var(--secondary-color)) 0%, transparent 70%), /* lila */
+  radial-gradient(ellipse 30% 40% at 35% 65%, color-mix(in srgb, var(--third-color) 40%, var(--secondary-color)) 0%, transparent 80%), /* test */
+  var(--secondary-color); /* mörk bas istället för vit */
+filter: blur(10px);
   z-index: 0;
+}
+
+.about-wrapper > * {
+  position: relative;
+  z-index: 1;
 }
 
 .about-image-wrapper,
