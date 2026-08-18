@@ -30,10 +30,10 @@
   position: absolute;
   inset: -10%;
   background:
-  radial-gradient(ellipse 25% 20% at 35% 35%, color-mix(in srgb, var(--gradient-color) 87%, var(--secondary-color)) 0%, transparent 80%), /* rosa */
-  radial-gradient(ellipse 30% 40% at 70% 40%, color-mix(in srgb, var(--gradient-color2) 85%, var(--secondary-color)) 0%, transparent 70%), /* lila */
-  radial-gradient(ellipse 30% 40% at 33% 62%, color-mix(in srgb, var(--third-color) 77%, var(--secondary-color)) 0%, transparent 75%), /* test */
-  var(--secondary-color); /* mörk bas istället för vit */
+  radial-gradient(ellipse 25% 20% at 35% 35%, color-mix(in srgb, var(--gradient-color) 87%, var(--secondary-color)) 0%, transparent 80%), 
+  radial-gradient(ellipse 30% 40% at 70% 40%, color-mix(in srgb, var(--gradient-color2) 85%, var(--secondary-color)) 0%, transparent 70%),
+  radial-gradient(ellipse 30% 40% at 33% 62%, color-mix(in srgb, var(--third-color) 77%, var(--secondary-color)) 0%, transparent 75%), 
+  var(--secondary-color);
 filter: blur(10px);
   z-index: 0;
 }
@@ -54,7 +54,6 @@ filter: blur(10px);
   height: auto;
   margin: 0 auto;
  margin-top: 20px;
-border: 1px solid var(--primary-color);
   display: block;
   
 }
