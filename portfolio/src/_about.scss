@@ -1,12 +1,12 @@
 .about-wrapper {
-  margin: 10px 0 10px 0;
+  margin: 10px auto;
   position: relative;
   overflow: hidden;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  
-  padding: 10px 0;
-  gap: 10px;
+  max-width: 1400px;
+  justify-content: center;
+  gap: 30px;
   background: var(--secondary-color);
   height: 100%;
 
@@ -50,11 +50,11 @@ filter: blur(10px);
 }
 .about-image {
   width: 100%;
-  max-width: 650px;
+  max-width: 550px;
   height: auto;
   margin: 0 auto;
- margin-top: -80px;
-
+ margin-top: 20px;
+border: 1px solid var(--primary-color);
   display: block;
   
 }
