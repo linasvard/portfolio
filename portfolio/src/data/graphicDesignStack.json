@@ -1,0 +1,32 @@
+[   
+    {
+        "name": "Adobe Photoshop",
+        "background": "#001E36",
+        "color": "#31A8FF"
+    },
+    {
+        "name": "Adobe XD",
+        "background": "#470137",
+        "color": "#ff61f6"
+    },
+    {
+        "name": "Adobe Illustrator",
+        "background": "#330000",
+        "color": "#FF9A00"
+    },
+    {
+        "name": "Adobe InDesign",
+        "background": "#490220",
+        "color": "#ff3366"
+    },
+    {
+        "name": "Adobe Lightroom",
+        "background": "#001E36",
+        "color": "#31A8FF"
+    },
+    {
+        "name": "Adobe After Effects",
+        "background": "#00005B",
+        "color": "#9999FF"
+    }
+]    

@@ -1,0 +1,38 @@
+[   
+    {
+        "name": "HTML5",
+        "color": "#F54927"
+    },
+    {
+        "name": "CSS",
+        "color": "#1172B8"
+    },
+    {
+        "name": "SASS",
+        "color": "#c69"
+    },
+    {
+        "name": "Vite",
+        "color": "#646CFF"
+    },
+    {
+        "name": "JavaScript",
+        "color": "#f7df1e"
+    },
+    {
+        "name": "TypeScript",
+        "color": "#007ACC"
+    },
+    {
+        "name": "Node.js",
+        "color": "#3e9838"
+    },
+    {
+        "name": "Express",
+        "color": "#171717"
+    },
+    {
+        "name": "npm",
+        "color": "#cc0001"
+    }
+]    
