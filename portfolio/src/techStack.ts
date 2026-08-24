@@ -5,10 +5,13 @@ export default function initTechStack() {
 
     interface IFrontendStack {
         name: string;
+        color: string;
     }
 
     interface IGraphicDesignStack {
         name: string;
+        background: string;
+        color: string;
     }
 
     function renderFrontendStack(items: IFrontendStack[]): void {
@@ -18,7 +21,7 @@ export default function initTechStack() {
         const listOfFrontend = [...items].sort();
 
         frontendStack.innerHTML = listOfFrontend.map((item) => `
-        <div class="tech-content €{item.name}">
+        <div style="background-color: ${item.color}" class="${item.name} tech-content">
             <p>${item.name}</p> 
         </div>
         `).join(""); 
@@ -30,8 +33,8 @@ export default function initTechStack() {
 
         const listOfGraphicDesign = [...items].sort();
         graphicDesignStack.innerHTML = listOfGraphicDesign.map((item) => `
-        <div class="tech-content €{item.name}">
-            <p>${item.name}</p> 
+        <div style="background-color: ${item.background}" class="tech-content ${item.name}">
+            <p style="color: ${item.color};">${item.name}</p> 
         </div>
         `).join("");
     }

@@ -1,17 +1,32 @@
 [   
     {
-        "name": "Adobe Photoshop"
+        "name": "Adobe Photoshop",
+        "background": "#001E36",
+        "color": "#31A8FF"
     },
     {
-        "name": "Adobe Lightroom"
+        "name": "Adobe XD",
+        "background": "#001E36",
+        "color": "#31A8FF"
     },
     {
-        "name": "Adobe InDesign"
+        "name": "Adobe Illustrator",
+        "background": "#330000",
+        "color": "#FF9A00"
     },
     {
-        "name": "Adobe XD"
+        "name": "Adobe InDesign",
+        "background": "#001E36",
+        "color": "#31A8FF"
     },
     {
-        "name": "Adobe AfterEffects"
+        "name": "Adobe Lightroom",
+        "background": "#001E36",
+        "color": "#31A8FF"
+    },
+    {
+        "name": "Adobe After Effects",
+        "background": "#00005B",
+        "color": "#9999FF"
     }
 ]    

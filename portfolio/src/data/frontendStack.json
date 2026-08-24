@@ -1,20 +1,26 @@
 [   
     {
-        "name": "HTML5"
+        "name": "HTML5",
+        "color": "#F54927"
     },
     {
-        "name": "CSS"
+        "name": "CSS",
+        "color": "#1172B8"
     },
     {
-        "name": "SASS"
+        "name": "SASS",
+        "color": "#c69"
     },
     {
-        "name": "Vite"
+        "name": "Vite",
+        "color": "#646CFF"
     },
     {
-        "name": "JavaScript"
+        "name": "JavaScript",
+        "color": "#f7df1e"
     },
     {
-        "name": "TypeScript"
+        "name": "TypeScript",
+        "color": "#007ACC"
     }
 ]    

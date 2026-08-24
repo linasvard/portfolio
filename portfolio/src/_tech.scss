@@ -17,6 +17,30 @@
 
 
 }
+.tech-content-wrapper {
+    margin-bottom: 30px;
+
+    h2 {
+        margin-bottom: 15px;
+    }
+}
+
+.tech-content {
+    padding: 5px 20px;
+    height: 100%;
+    
+
+    p {
+        font-size: 1rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin: auto;
+        color: var(--secondary-color);
+        letter-spacing: 0.05rem;
+    }
+
+
+}
 
 .tech-icon-wrapper {
     display: flex;
@@ -27,4 +51,10 @@
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
+
+
+}
+
+.JavaScript p {
+    color: var(--primary-color);
 }
