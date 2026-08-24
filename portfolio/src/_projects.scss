@@ -92,7 +92,7 @@
     color: var(--third-color);
 }
 
-.project-card:hover .on-hover-card { // add :hover
+.project-card .on-hover-card { // add :hover
     opacity: 1;
 }
 
@@ -114,21 +114,58 @@
     }
 }
 
+.link-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--third-color);
+    cursor: pointer;
+
+    .link {
+        stroke: var(--third-color);
+    }
+
+    .github {
+        fill: var(--third-color);
+    }
+}
+
+.link-wrapper:hover {
+    background-color: var(--third-color);
+    
+    a {
+        color: var(--primary-color);
+    }
+
+    .github {
+        fill: var(--primary-color);
+    }
+
+    .link {
+        stroke: var(--primary-color);
+    }
+}
+
+
+
 
 
 .more-info-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+    
 
     a {
         text-decoration: none;
         color: var(--third-color);
-        border: 1px solid var(--third-color);
-        text-align: center;
-        padding: 30px;
+        padding: 30px 10px;
         font-size: 1.2rem;
-    
+    }
+
+    svg {
+        width: 24px;
     }
 }
 
