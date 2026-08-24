@@ -22,5 +22,17 @@
     {
         "name": "TypeScript",
         "color": "#007ACC"
+    },
+    {
+        "name": "Node.js",
+        "color": "#3e9838"
+    },
+    {
+        "name": "Express",
+        "color": "#171717"
+    },
+    {
+        "name": "npm",
+        "color": "#cc0001"
     }
 ]    

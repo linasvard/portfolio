@@ -13,6 +13,7 @@
   --accent-color: rgb(234, 234, 234);
   --gradient-color: rgb(222, 192, 229);
   --gradient-color2: #ffca91;
+  --gradient-color3: #171717;
 }
 
 * {
@@ -67,4 +68,14 @@ p {
 
 .hidden {
   display: none;
+}
+
+.section-heading, .section-subheading {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  color: var(--third-color);
+}
+
+.section-subheading span {
+  color: var(--primary-color);
 }
