@@ -31,7 +31,7 @@ export default function initProjects() {
 
                     <div>
                         <h2 class="project-heading"><span>1.${item.id}</span> ${item.title}</h2>
-                        <p>${item.description}</p>
+                        <p class="description-project">${item.description}</p>
                     </div>
                 </div>
                 <div class="more-info-wrapper">

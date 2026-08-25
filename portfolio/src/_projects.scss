@@ -90,6 +90,10 @@
     cursor: pointer;
 }
 
+.description-project {
+    opacity: 0.7;
+}
+
 .project-heading span {
     color: var(--third-color);
 }
@@ -125,6 +129,7 @@
     border: 1px solid var(--third-color);
     border-radius: 3px;
     cursor: pointer;
+    height: 100px;
 
     .link {
         stroke: var(--third-color);
@@ -164,8 +169,8 @@
     a {
         text-decoration: none;
         color: var(--third-color);
-        padding: 30px 10px;
         font-size: 1.2rem;
+        padding: 10px;
     }
 
     svg {
@@ -181,6 +186,8 @@
 
     }
 
+   
+
     
 }
 
@@ -195,5 +202,10 @@
         background-color: red;
     }
 
+    .link-wrapper {
+        height: 50px; 
+    }
+
+    
  
 }
