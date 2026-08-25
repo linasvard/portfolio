@@ -7,6 +7,7 @@ export default function initProjects() {
         title: string
         image: string
         description: string
+        description_mobile: string
         github: string
         demo: string
         tag_1: string
@@ -25,13 +26,14 @@ export default function initProjects() {
             <div class="on-hover-card">
                 <div class="about-project-wrapper">
                     <div class="project-tags">
-                        <p class="basic-tag">${item.tag_1}</p>
-                        <p class="basic-tag">${item.tag_2}</p>
+                        <p class="basic-tag-${item.tag_1}">${item.tag_1}</p>
+                        <p class="basic-tag-${item.tag_2}">${item.tag_2}</p>
                     </div>
 
                     <div>
                         <h2 class="project-heading"><span>1.${item.id}</span> ${item.title}</h2>
                         <p class="description-project">${item.description}</p>
+                        <p class="description-mobile">${item.description_mobile}</p>
                     </div>
                 </div>
                 <div class="more-info-wrapper">

@@ -4,39 +4,43 @@
         "title": "IKEA Escape Room",
         "image": "./ikea-escape-room.jpg",
         "description": "Ett Escape Room",
+        "description_mobile": "Ett digitalt escape room om hur du ska ta dig ut ur IKEA.",
         "github": "https://github.com/linasvard/ikea-escape-room",
         "demo": "https://linasvard.github.io/ikea-escape-room/",
-        "tag_1": "Grupparbete",
-        "tag_2": "Frontend"
+        "tag_1": "grupparbete",
+        "tag_2": "frontend"
     },
     {
         "id": "2",
         "title": "Negative Space",
         "image": "./negative-space.jpg",
+        "description_mobile": "En designöverlämning mellan två grupper, på samarbetet mellan designer och utvecklare.",
         "description": "Det här projektet ingår i en kurs om samarbetet mellan designer och utvecklare, där vi genomförde en praktisk designöverlämning mellan två grupper för att öva på att göra en design tydlig, kravställd och implementerbar.",
         "github": "https://github.com/linasvard/negative-space",
         "demo": "https://linasvard.github.io/negative-space/",
-        "tag_1": "Grupparbete",
-        "tag_2": "Frontend"
+        "tag_1": "grupparbete",
+        "tag_2": "frontend"
     },
     {
         "id": "3",
         "title": "Min Budget",
         "image": "./min-budget.jpg",
         "description": "Ett Escape Room",
+        "description_mobile": "",
         "github": "https://github.com/linasvard/min-budget",
         "demo": "https://linasvard.github.io/min-budget/",
-        "tag_1": "Enskilt arbete",
-        "tag_2": "Frontend"
+        "tag_1": "egenarbete",
+        "tag_2": "frontend"
     },
        {
         "id": "4",
         "title": "Gottfrids Munkfabrik",
         "image": "./munkfabrik.jpg",
         "description": "Ett Escape Room",
+        "description_mobile": "",
         "github": "https://github.com/linasvard/gottfrids-munkfabrik",
         "demo": "https://linasvard.github.io/gottfrids-munkfabrik/",
-        "tag_1": "Enskilt arbete",
-        "tag_2": "Frontend"
+        "tag_1": "egenarbete",
+        "tag_2": "frontend"
     }
 ]

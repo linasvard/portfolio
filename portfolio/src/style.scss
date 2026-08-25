@@ -59,12 +59,18 @@ main {
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 1.6rem;
   margin-bottom: 20px;
   max-width: 620px;
-  
+  letter-spacing: 0.05rem;
+
 }
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
 
 .hidden {
   display: none;
