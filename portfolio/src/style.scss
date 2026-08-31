@@ -33,7 +33,7 @@ body {
 }
 
 main {
-  max-width: 1450px;
+  max-width: 1400px;
   margin: 0 auto;
   width: 100%;
   padding: 10px 0;
@@ -85,3 +85,23 @@ h2 {
 .section-subheading span {
   color: var(--primary-color);
 }
+
+.projects-wrapper,
+.tech-stack-section,
+.contact-section,
+.about-section {
+  padding: 10px 30px;
+}
+
+
+
+@media (max-width: 768px) {
+  
+  .projects-wrapper,
+  .tech-stack-section,
+  .contact-section {
+
+    padding: 0;
+  } 
+}
+
