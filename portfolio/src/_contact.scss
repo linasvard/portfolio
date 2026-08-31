@@ -1,0 +1,24 @@
+.contact-section,
+.footer-wrapper {
+    background-color: var(--third-faded);
+   
+}
+
+.contact-section {
+     padding: 40px 0;
+}
+
+.footer-wrapper {
+    padding: 40px;
+}
+
+.contact-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+ form {
+    display: flex;
+    flex-direction: column;
+    
+ }

@@ -167,25 +167,37 @@
         </div>  
       </section>
       <section class="contact-section">
-        <h1 class="section-heading">3. Connect</h1>
-        <div class="contact-wrapper">
-          <div>
-            <h2>Vad har jag att erbjuda?</h2>
-          </div>
-          <div>
-            <form action="https://formspree.io/f/xjyvgldj" method="post">
-              <label>Din mejl:
-                <input type="email" name="email">
-              </label>
-              <label>
-                Vad har du på hjärtat?
-                <textarea name="message"></textarea>
-              </label>
-              <button type="submit">Skicka</button>
-            </form>
+        <div class="contact-section-wrapper">
+          
+          <div class="contact-wrapper">
+            <div>
+              <h1 class="section-heading">3. Connect</h1>
+              <h2>Vad har jag att erbjuda?</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia itaque vel tempore quis non maiores. Voluptatibus quis ipsa sequi nostrum aut maxime eligendi facilis provident nobis repellendus modi, dolorum tenetur?</p>
+            </div>
+            <div class="form-wrapper">
+              <form action="https://formspree.io/f/xjyvgldj" method="post">
+                <div>
+                  <label for="name">Ditt namn</label>
+                  <input type="text" id="name" name="name" required>
+                  
+                  <label for="email">Din mejl</label>
+                  <input type="email" name="email" required>
+                </div>  
+                <label for="_subject">Ämne</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label>Vad har du på hjärtat?</label>
+                <textarea name="message" required></textarea>
+                <button type="submit">Skicka</button>
+              </form>
+            </div>  
           </div>  
-        </div>  
+        </div>
       </section>
+      <footer class="footer-wrapper">
+        <p>Lina Svärd 2026</p>
+      </footer>
     </main>
     <script type="module" src="/src/main.ts"></script>
   </body>

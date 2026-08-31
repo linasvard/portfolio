@@ -6,7 +6,7 @@
   grid-template-columns: 1fr 1fr;
   max-width: 1400px;
   justify-content: center;
-  gap: 80px;
+  gap: 50px;
   background: var(--secondary-color);
 
   
@@ -37,11 +37,11 @@ filter: blur(10px);
 }
 .about-image {
   width: 100%;
-  max-width: 650px;
+  max-width: 600px;
   height: auto;
-  margin: 0 auto;
+  margin: 0;
   display: block;
-  
+ 
 }
 
 
