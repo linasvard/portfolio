@@ -65,13 +65,156 @@
     }
 }
 
-@media (min-width: 601px) and (max-width: 1024px) {
+.project-card {
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.on-hover-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    padding: 30px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    justify-items: center;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+
+    cursor: pointer;
+
+    p {
+        width: 100%;
+    }
+}
+
+.description-project, .description-mobile {
+    opacity: 0.7;
+   
+}
+
+.description-mobile {
+    display: none;
+}
+
+.project-heading span {
+    color: var(--third-color);
+}
+
+.project-card:hover .on-hover-card { // add :hover
+    opacity: 1;
+}
+
+.project-tags {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: flex-start;
+    opacity: 0.7;
+    
+
+    p {
+        padding: 5px 15px;
+        width: fit-content;
+        text-transform: uppercase;
+        font-size: 1rem;
+        letter-spacing: 0.05rem;
+        border-radius: 3px;
+    }
+}
+
+.basic-tag-frontend {
+    border: 1px solid var(--gradient-color2); 
+    color: var(--gradient-color2);
+}
+
+.basic-tag-grupparbete {
+    border: 1px solid var(--third-color); 
+    color: var(--third-color);
+
+}
+
+.basic-tag-egenarbete {
+    border: 1px solid turquoise; 
+    color: turquoise;
+}
+
+.link-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--third-color);
+    border-radius: 3px;
+    cursor: pointer;
+    height: 100px;
+
+    .link {
+        stroke: var(--third-color);
+    }
+
+    .github {
+        fill: var(--third-color);
+    }
+}
+
+.link-wrapper:hover {
+    background-color: var(--third-color);
+    
+    a {
+        color: var(--primary-color);
+    }
+
+    .github {
+        fill: var(--primary-color);
+    }
+
+    .link {
+        stroke: var(--primary-color);
+    }
+}
+
+.description-project {
+    max-width: 100%;
+}
+
+
+
+
+.more-info-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    
+
+    a {
+        text-decoration: none;
+        color: var(--third-color);
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+
+    svg {
+        width: 24px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1100px) {
      .projects-item-small {
         
         grid-template-columns: 1fr;
         gap: 40px;
-
+        width: 100%;
     }
+
+   
+  
 
     
 }
@@ -87,5 +230,40 @@
         background-color: red;
     }
 
+    .link-wrapper {
+        height: 50px; 
+    }
+
+    .description-mobile {
+        display: none;
+    }
+
+    .description-project {
+        display: none;
+    }
+
+    
  
+}
+
+@media (min-width: 601px) and (max-width: 700px) {
+    .description-mobile {
+        display: block;
+    }
+
+    .description-project {
+        display: none;
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1300px) {
+    .description-mobile {
+        display: block;
+
+    }
+
+    .description-project {
+        display: none;
+    }
 }
