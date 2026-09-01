@@ -93,6 +93,7 @@ h2 {
   background-color: var(--primary-color);
   color: var(--secondary-color);
   text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
 
    &:hover {
       background-color: var(--third-color);
@@ -100,6 +101,7 @@ h2 {
     }
 
 }
+
 
 .section-subheading span {
   color: var(--primary-color);
