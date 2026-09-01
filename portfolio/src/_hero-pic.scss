@@ -1,3 +1,4 @@
+
 .hero-wrapper {
   display: flex;
   flex-direction: column;
@@ -5,7 +6,7 @@
   align-items: center;
   height: 100%;
   padding-bottom: 30px;
-  padding-top: 30px;
+  padding-top: 40px;
 
 }
 
@@ -36,12 +37,12 @@
     text-transform: none;
     font-weight: 300;
     font-size: 1rem;
-    margin-bottom: 10px;
+
     cursor: pointer;
 
     &:hover {
       background-color: transparent;
-      color: inherit;
+      color: var(--third-color);
     }
   }
 
@@ -67,24 +68,44 @@
 
 
 .hero-section {
+  position: relative;
 
-  max-width: 1400px;
   align-items: center;
   width: 100%;
   height: 100vh;
   margin: 0 auto;
   padding: 0;
-
-
+  overflow: hidden;
+  z-index: 0;
   h1 {
     font-size: 1.5rem;
     text-align: center;
     margin-top: 20px;
     color: var(--third-color)
   }
+}
 
+.hero-wrapper::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+ 
+    radial-gradient(ellipse 30% 40% at 24% 55%, color-mix(in srgb, var(--third-color) 30%, var(--secondary-color)) 0%, transparent 70%),
+  
+    radial-gradient(ellipse 40% 50% at 1% 45%, color-mix(in srgb, var(--gradient-color2) 85%, var(--secondary-color)) 0%, transparent 65%),
+    
+    radial-gradient(ellipse 30% 45% at 90% 53%, color-mix(in srgb, var(--gradient-color) 70%, var(--secondary-color)) 0%, transparent 60%),
+
+    radial-gradient(ellipse 30% 40% at 80% 70%, color-mix(in srgb, var(--third-color) 20%, var(--secondary-color)) 0%, transparent 70%),
+
+    radial-gradient(ellipse 30% 65% at 87% 20%, color-mix(in srgb, var(--gradient-color2) 45%, var(--secondary-color)) 0%, transparent 75%),
+
+    var(--secondary-color);
 
 }
+
 .hero-button-wrapper {
   display: flex;
   justify-content: center;
