@@ -85,7 +85,7 @@
   }
 }
 
-.hero-wrapper::before {
+/*.hero-wrapper::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -104,7 +104,7 @@
 
     var(--secondary-color);
 
-}
+}*/
 
 .hero-button-wrapper {
   display: flex;
