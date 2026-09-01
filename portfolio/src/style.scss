@@ -89,6 +89,16 @@ h2 {
   text-decoration: none;
   font-weight: 600;
   padding: 15px 30px;
+  border-radius: 3px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  text-transform: uppercase;
+
+   &:hover {
+      background-color: var(--third-color);
+      color: var(--secondary-color);
+    }
+
 }
 
 .section-subheading span {

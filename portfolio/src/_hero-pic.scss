@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: calc(100vh - 85vh);
+  margin-top: calc(100vh - 80vh);
 
 
   h2 {
@@ -12,26 +12,21 @@
     margin-top: -10px;
   }
 
+  span {
+    font-weight: 800;
+  }
   
 }
 
-.info-text-wrapper span {
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: var(--primary-color);
-
-}
 
 .hero-section {
 
   max-width: 1400px;
   align-items: center;
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   margin: 0 auto;
   padding: 0;
-  border: 2px solid var(--primary-color);
-
 
 
   h1 {
@@ -41,20 +36,42 @@
     color: var(--third-color)
   }
 
-  .hero-text-wrapper {
-    h1 {
-      font-size: 1.5rem;
-      
-      margin-top: 20px;
-    }
 
-    h2 {
-      font-size: 3rem;
-  
-    }
+}
+.hero-button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+
+  a {
+    text-decoration: none;
+    font-weight: 300;
+    padding: 15px 30px;
+    border-radius: 3px;
+    transition: all 0.2s ease-in-out;
+   
+      
   }
 
+  .mail {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
 
+  
+  }
+
+  .cv {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    &:hover {
+      border: 1px solid var(--third-color);
+    }
+  
+  }
+ 
 }
 
 
