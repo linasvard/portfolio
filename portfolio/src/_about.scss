@@ -1,12 +1,11 @@
 .about-wrapper {
-  margin: 40px auto;
+  margin: 60px auto;
   position: relative;
   overflow: hidden;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  max-width: 1400px;
   justify-content: center;
-  gap: 50px;
+  gap: 0;
   background: var(--secondary-color);
 
   
@@ -37,12 +36,29 @@ filter: blur(10px);
 }
 .about-image {
   width: 100%;
-  max-width: 600px;
+  max-width: 550px;
   height: auto;
   margin: 0;
   display: block;
  
 }
+
+.about-contact-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+
+  margin-top: 40px;
+  justify-content: space-between;
+
+  p {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+}
+
 
 
 
@@ -93,32 +109,6 @@ filter: blur(10px);
 
 }
 
-.about-contact-wrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-items: center;
-
-  margin-top: 40px;
-  justify-content: space-between;
-
-  a {
-    border: 1px solid var(--primary-color);
-    color: var(--primary-color);
-    padding: 10px 20px;
-  
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 600;
-    border-radius: 3px;
-  }
-
-  p {
-    font-size: 1.3rem;
-    font-weight: 600;
-    margin-top: 10px;
-  }
-}
 
 // Mobile view
 
