@@ -6,6 +6,7 @@
 @use "./about";
 @use "./tech";
 @use "./contact";
+@use "./experience";
 
 :root {
   --primary-color: rgb(35, 1, 43);
@@ -110,11 +111,13 @@ h2 {
 
 .tech-stack-section,
 .about-section,
-.contact-section-wrapper {
+.contact-section-wrapper,
+.experience-section {
   padding: 10px 40px;
   max-width: 1350px;
   margin: 0 auto;
   margin-top: 50px;
+  width: 100%;
 }
 
 .projects-wrapper {
