@@ -11,35 +11,11 @@
   
 }
 
-/*.about-wrapper::before {
-  content: "";
-  position: absolute;
-  inset: -10%;
-  background:
-  radial-gradient(ellipse 25% 20% at 35% 35%, color-mix(in srgb, var(--gradient-color) 87%, var(--secondary-color)) 0%, transparent 80%), 
-  radial-gradient(ellipse 30% 40% at 70% 40%, color-mix(in srgb, var(--gradient-color2) 85%, var(--secondary-color)) 0%, transparent 70%),
-  radial-gradient(ellipse 30% 40% at 33% 62%, color-mix(in srgb, var(--third-color) 77%, var(--secondary-color)) 0%, transparent 75%), 
-  var(--secondary-color);
-filter: blur(10px);
-  z-index: 0;
-}
-
-.about-wrapper > * {
-  position: relative;
-  z-index: 1;
-}
-
-.about-image-wrapper,
-.about-text-wrapper {
-  position: relative;
-  z-index: 1;
-}*/ 
 .about-image {
   width: 100%;
   max-width: 550px;
   height: auto;
-  margin: 0;
-  display: block;
+  overflow: hidden;
  
 }
 
@@ -101,7 +77,7 @@ filter: blur(10px);
     width: 100%;
     margin: 0 auto;
     max-width: 580px;
-   
+   overflow: hidden;
 
   }
 

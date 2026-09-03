@@ -165,6 +165,11 @@
 
 @media (max-width: 600px) {
 
+     .name-email, .subject-co {
+        flex-direction: column;
+        gap: 0;
+    }
+
     .contact-wrapper {
         grid-template-columns: 1fr;
          width: 100%;
