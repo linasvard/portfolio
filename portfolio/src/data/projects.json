@@ -3,7 +3,7 @@
         "id": "1",
         "title": "IKEA Escape Room",
         "image": "./ikea-escape-room.jpg",
-        "description": "Ett Escape Room",
+        "description": "Ett IKEA-escape room byggt från grunden i TypeScript, HTML, SASS och Vite. Skapat agilt i grupp på Medieinstitutet där vi byggt modulär kod, LocalStorage-timer och unika spelrum utan externa ramverk.",
         "description_mobile": "Ett digitalt escape room om hur du ska ta dig ut ur IKEA.",
         "github": "https://github.com/linasvard/ikea-escape-room",
         "demo": "https://linasvard.github.io/ikea-escape-room/",
