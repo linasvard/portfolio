@@ -13,11 +13,12 @@
 .tech-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 40px;
 }
 
 .tech-content-wrapper {
     margin-bottom: 40px;
-    max-width: 800px;
+    width: 100%;
 
 }
 
@@ -63,12 +64,55 @@
 
 }
 
-.arrow-right {
+.arrow {
     font-size: 3rem;
     color: var(--third-color);
 
 }
 
+.arrow-down {
+    display: none;
+}
+
 .JavaScript p {
     color: var(--primary-color);
+}
+
+// Tablet
+@media (min-width: 601px) and (max-width: 1024px) {
+    
+ 
+    
+}
+
+
+
+// Mobile view
+
+@media (max-width: 600px) {
+
+
+}
+
+// Tablet & mobile
+
+@media (max-width: 1024px) {
+
+  
+    .tech-stack-section {
+        margin: 40px 0;
+    }
+    .tech-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .arrow-right {
+        display: none;
+    }
+
+    .arrow-down {
+        display: block;
+        text-align: right;
+    }
+
 }

@@ -30,17 +30,11 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   margin: 0;
+  max-width: 100%;
   color: var(--primary-color);
   background-color: var(--secondary-color);
-  
 }
 
-main {
- 
-  margin: 0 auto;
-  width: 100%;
-  
-}
 
 header {
   display: grid;
@@ -133,11 +127,29 @@ h2 {
 
 @media (max-width: 768px) {
   
+   
+}
+
+@media (max-width: 1024px) {
+  
   .projects-wrapper,
   .tech-stack-section,
-  .contact-section {
+  .contact-section-wrapper,
+  .experience-section {
+    
+    padding: 30px;
+  }
 
-    padding: 0;
-  } 
+  p {
+    width: 100%;
+  }
+
+  .tech-info-wrapper p {
+    max-width: 100%;
+}
+
+.arrow-right {
+  display: none;
+}
 }
 
