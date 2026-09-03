@@ -141,3 +141,17 @@ h2 {
   } 
 }
 
+@media (max-width: 1024px) {
+  p {
+    width: 100%;
+  }
+
+  .tech-info-wrapper p {
+    max-width: 100%;
+}
+
+.arrow-right {
+  display: none;
+}
+}
+
