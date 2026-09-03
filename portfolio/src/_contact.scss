@@ -4,6 +4,7 @@
 
 }
 
+
 .contact-section {
      padding: 40px 0;
      margin-top: 50px;
@@ -16,6 +17,7 @@
 .contact-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: first baseline;
 }
 
 .form-wrapper {
@@ -54,6 +56,7 @@
         font-weight: 600;
         width: 150px;
         cursor: pointer;
+        margin-top: 15px;
     }
 }
 
@@ -63,7 +66,7 @@
     justify-content: center;
     align-content: center;
     gap: 5px;
-  
+
 
     h2 {
         font-size: 1.5rem;
@@ -128,3 +131,56 @@
   justify-content: center;
 
 }
+
+
+// Tablet
+@media (min-width: 601px) and (max-width: 1024px) {
+    .contact-wrapper {
+        grid-template-columns: 1fr;
+        width: 100%;
+       
+    }
+
+    .contact-text-wrapper p {
+        width: 100%;
+        max-width: 100%;
+    
+    }
+
+   
+
+    .form-wrapper {
+        margin-top: 40px;
+    }
+
+ 
+   
+    
+}
+
+
+
+// Mobile view
+
+@media (max-width: 600px) {
+
+    .contact-wrapper {
+        grid-template-columns: 1fr;
+         width: 100%;
+         margin-top: 10px;
+    }
+
+    .form-wrapper {
+        width: 100%;
+        margin-top: 40px;
+        label, input {
+            width: 100%;
+        }
+        button {
+            width: 100%;
+            
+        }
+    }
+
+}
+
