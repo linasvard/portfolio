@@ -72,3 +72,33 @@
 .JavaScript p {
     color: var(--primary-color);
 }
+
+// Tablet
+@media (min-width: 601px) and (max-width: 1024px) {
+    
+ 
+    
+}
+
+
+
+// Mobile view
+
+@media (max-width: 600px) {
+
+
+}
+
+// Tablet & mobile
+
+@media (max-width: 1024px) {
+
+  
+    .tech-stack-section {
+        margin: 40px 0;
+    }
+    .tech-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+}
