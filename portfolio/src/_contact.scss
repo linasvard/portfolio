@@ -182,5 +182,22 @@
         }
     }
 
+    
+
 }
 
+// Tablet & mobile
+
+@media (max-width: 1024px) {
+    .footer-content-wrapper {
+        flex-direction: column;
+        justify-content: center;
+
+
+        p {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+    }
+
+}
