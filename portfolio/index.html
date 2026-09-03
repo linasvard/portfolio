@@ -264,19 +264,26 @@
             <div class="form-wrapper">
               <form action="https://formspree.io/f/xjyvgldj" method="post">
                 <div class="name-email">
-                  <div class="name-wrapper">    
-                    <label for="name">Ditt namn</label>
-                    <input type="text" id="name" name="name" required>
+                  <div class="input-wrapper">    
+                    <label for="name">Ditt namn*</label>
+                    <input type="text" id="name" name="name" required/>
                   </div>
-                  <div class="email-wrapper">   
-                    <label for="email">Din mejl</label>
-                    <input type="email" name="email" required>
+                  <div class="input-wrapper">   
+                    <label for="email">Din mejl*</label>
+                    <input type="email" name="email" required/>
                   </div>    
-                </div>  
-                <label for="_subject">Ämne</label>
-                <input type="text" id="subject" name="subject" required>
-
-                <label>Vad har du på hjärtat?</label>
+                </div> 
+                <div class="subject-co">  
+                  <div class="input-wrapper">
+                    <label for="company">Ev. företag</label>
+                    <input type="text" id="company" name="company" />
+                  </div>  
+                  <div class="input-wrapper">
+                    <label for="_subject">Ämne*</label>
+                    <input type="text" id="subject" name="subject" required/>
+                  </div>
+                </div>   
+                <label>Vad har du på hjärtat?*</label>
                 <textarea name="message" required></textarea>
                 <button type="submit">Skicka</button>
               </form>

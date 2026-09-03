@@ -82,13 +82,13 @@
     }
 }
 
-.name-email {
+.name-email, .subject-co {
     display: flex;
-    flex-direction: ro;
+    flex-direction: row;
     gap: 20px;
 }
 
-.name-wrapper, .email-wrapper {
+.input-wrapper {
     display: flex;
     flex-direction: column;
     width: 100%;
