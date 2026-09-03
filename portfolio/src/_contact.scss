@@ -1,0 +1,130 @@
+.contact-section,
+.footer-wrapper {
+    background-color: var(--primary-color);
+
+}
+
+.contact-section {
+     padding: 40px 0;
+     margin-top: 50px;
+}
+
+.footer-wrapper {
+    padding: 40px;
+}
+
+.contact-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.form-wrapper {
+
+    label {
+        font-size: 1.1rem;
+        color: var(--secondary-color);
+        margin-bottom: 5px;
+    }
+    input, textarea {
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid var(--third-color);
+        margin-bottom: 20px;
+        background: var(--third-faded);
+        color: var(--secondary-color);
+    }
+
+    textarea {
+        min-height: 150px;
+        resize: vertical;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    button {
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+        background-color: var(--third-color);
+        color: var(--secondary-color);
+        font-size: 1.1rem;
+        font-weight: 600;
+        width: 150px;
+        cursor: pointer;
+    }
+}
+
+ .contact-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 5px;
+  
+
+    h2 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: var(--secondary-color);
+    }
+    p {
+        font-size: 1.1rem;
+        line-height: 1.6rem;
+        color: var(--secondary-color);
+        max-width: 520px;
+    }
+
+    p {
+        opacity: 0.7;
+    }
+}
+
+.name-email, .subject-co {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.footer-content-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1600px;
+   margin: 0 auto;
+  width: 100%; 
+  padding: 20px 0; 
+  
+  p, a {
+    font-size: 1rem;
+    color: var(--secondary-color);
+    opacity: 0.7;
+    margin: 0;
+  }
+
+  a {
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+.footer-links-wrapper {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+
+}

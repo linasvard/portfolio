@@ -1,6 +1,6 @@
 .tech-stack-section {
     margin: 40px auto;
-   
+    
     
 }
 
@@ -19,6 +19,10 @@
     margin-bottom: 40px;
     max-width: 800px;
 
+}
+
+.tech-info-wrapper p {
+    max-width: 580px;
 }
 
 .section-subheading {
@@ -61,6 +65,7 @@
 
 .arrow-right {
     font-size: 3rem;
+    color: var(--third-color);
 
 }
 

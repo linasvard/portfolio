@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="sv">
   <head>
     <link rel="stylesheet" href="https://use.typekit.net/uql1klb.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=keyboard_arrow_down" />
@@ -17,8 +17,8 @@
         <nav class="navbar-top">
           <div class="links-navbar">
             <div class="menu-links-left">
-              <a href="/index.html">Home</a>
-              <a href="#projects">Work</a>
+              <a href="#projects">Projekt</a>
+              <a href="#about">Om mig</a>
             </div>
             <div class="logo-navbar">
               <div>
@@ -29,8 +29,8 @@
               </div>
             </div>
             <div class="menu-links-right">
-              <a href="#about">About me</a>
-              <a href="/gallery.html">Gallery</a>
+              <a href="#contact">Kontakt</a>
+              <a href="/gallery.html">CV</a>
             </div>
           </div>
         </nav>
@@ -52,14 +52,38 @@
       </div>
     </header>
     <main>
-      <div class="hero-wrapper">
-        <div class="hero-title">
-          <img class="hero-image" src="./lila.png"/>
+      <section class="hero-section">
+        
+        <div class="hero-wrapper">
+          <div class="hero-content">
+            <div class="hero-title">
+              <img class="hero-image" src="./lila.png"/>
+            </div> 
+            <div class="info-text-wrapper">
+              <h1>Kul att du hittat hit!</h1>
+              <p><span>Psst! </span>Vill du veta mer snabbt? Använda länkarna nedan.</p>
+            </div>  
+            <div class="hero-button-wrapper">
+              <a href="#contact" class="button-link contact">
+                Kontakta mig
+              </a>
+              <a href="#projects" class="button-link cv">
+                Ladda ner CV
+              </a>
+            </div>
+          </div>
+
+          <div class="scroll-down-wrapper" >
+            <a class ="scroll-link" href="#projects">Visa mer</a>
+            <svg class ="arrow-down" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64px" height="64px" viewBox="-1.84 -1.84 34.41 34.41" xml:space="preserve" stroke="#000000" stroke-width="0.00030727"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"  stroke-width="0.12290799999999999"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M29.994,10.183L15.363,24.812L0.733,10.184c-0.977-0.978-0.977-2.561,0-3.536c0.977-0.977,2.559-0.976,3.536,0 l11.095,11.093L26.461,6.647c0.977-0.976,2.559-0.976,3.535,0C30.971,7.624,30.971,9.206,29.994,10.183z"></path> </g> </g></svg>
+          </div>
         </div>
-      </div>
+          
+      </section>    
       <section id="projects" class="projects-wrapper">
         
-        <h1 class="projects-title"><span>Scroll through</span>1. my work<span> below ↓</span></h1>
+        <h1 class="section-heading">1. Projekt</h1>
+        <h2 class="about-title">Dessa är jag stoltast över</h2>
      
         <div class="feautured-project-wrapper">
     
@@ -103,7 +127,7 @@
 
       </section>
 
-      <section id="about">
+      <section id="about" class="about-section">
         
         <div class="about-wrapper">
           <div class="about-image-wrapper">
@@ -127,11 +151,10 @@
             <h2 class="about-title">Hej, Lina heter jag!</h2>
             <p class="about-text">En frontendutvecklare under utbildning med en kandidatexamen i grafisk design, en kombination som gör att jag förstår både koden och känslan bakom ett gränssnitt. Jag innehar kunskaper inom HTML, CSS, Sass, JavaScript, TypeScript och Figma, och kommer även vid LIA-start ha kurser i React och API-integration bakom mig. Nu söker jag en praktikplats där jag kan växa som frontendutvecklare i ett engagerat team.</p>
             <div class="about-contact-wrapper">  
-              <p>Connect →</p>
+              <p>Connect <span>→</span></p>
               <div class="about-contact">
-                <a href="mailto:linajsvard@hotmail.com" class="about-contact-link">Mejla mig</a>
                 <a href="https://www.linkedin.com/in/lina-sv%C3%A4rd-0b1a2b1b6/" target="_blank" class="about-contact-link">LinkedIn</a>
-                <a href="https://www.github.com/linasvard" target="_blank" class="about-contact-link">GitHub</a>
+                <a class="github-link" href="https://www.github.com/linasvard" target="_blank" class="about-contact-link">GitHub</a>
               </div>
             </div>    
           </div>
@@ -166,26 +189,124 @@
           </div>  
         </div>  
       </section>
-      <section>
-        <h1 class="section-heading">3. Connect</h1>
-        <div class="contact-wrapper">
-          <div>
-            <h2>Vad har jag att erbjuda?</h2>
+      <section id="experience" class="experience-section">
+        <h1 class="section-heading">2.2 Digital erfarenhet</h1>
+        <h2>Mina digitala kunskaper</h2>
+        <div class="experience-wrapper">
+          <div class="experience-content-wrapper">
+            <h2 class="section-subheading">2.2.1. <span>Utbildning</span></h2>
+            <div class="experience-card">
+              
+              <div class="experience-item-wrapper"> 
+                <h3>Front End Developer <span class="dot">·</span> Medieinstitutet</h3>
+                <p class="experience-sub">Dec 2025 - Nuvarande</p>
+                <div class="skill-wrapper">
+                  <ul class="skills-list">
+                    <li class="skill">HTML</li>
+                    <li class="skill">CSS & Sass</li>
+                    <li class="skill">GSAP</li>
+                    <li class="skill">JavaScript</li>
+                    <li class="skill">TypeScript</li>
+                    <li class="skill">React</li>
+                    <li class="skill">UI / UX Design</li>
+                  </ul>
+                </div>
+                
+              </div>  
+              <div class="experience-item-wrapper"> 
+                <h3>Grafisk Design <span class="dot">·</span> Mittuniversitet</h3>
+                <p class="experience-sub">Aug 2020 - Jun 2023</p>
+                <div class="skill-wrapper">
+                  <ul class="skills-list">
+                    <li class="skill">Förpackningsdesign</li>
+                    <li class="skill">Webbdesign</li>
+                    <li class="skill">UI / UX Design</li>
+                    <li class="skill">Digital bildhantering</li>
+                    <li class="skill">Visuell kommunikation</li>
+                    <li class="skill">Illustration</li>
+                    <li class="skill">Animation</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
-          <div>
-            <form action="https://formspree.io/f/xjyvgldj" method="post">
-              <label>Din mejl:
-                <input type="email" name="email">
-              </label>
-              <label>
-                Vad har du på hjärtat?
-                <textarea name="message"></textarea>
-              </label>
-              <button type="submit">Skicka</button>
-            </form>
+          
+          <div class="experience-content-wrapper">
+            <div>
+              <h2 class="section-subheading">2.2.2. <span>Arbetslivserfarenhet</span></h2>
+            </div>
+            <div class="experience-card">
+              <div class="experience-item-wrapper"> 
+                <h3>Grafisk Formgivare <span class="dot">·</span> ICA Reklam</h3>
+                <p class="experience-sub">Feb 2022 - Maj 2022</p>
+                <div class="skill-wrapper">
+                  <ul class="skills-list">
+                    <li class="skill">Visuell identitet</li>
+                    <li class="skill">Digital kommunikation</li>
+                    <li class="skill">Kundbemötande</li>
+                    <li class="skill">Marknadsföring</li>
+                  </ul>
+                </div>
+              </div>    
+            </div> 
+          </div>    
+        </div>
+      </section>  
+      <section id="contact" class="contact-section">
+        <div class="contact-section-wrapper">
+          
+          <div class="contact-wrapper">
+            <div class="contact-text-wrapper">
+              <h1 class="section-heading">3. Kontakta mig</h1>
+              <h2>Har du något att berätta?</h2>
+              <p>Är du intresserad av att samarbeta eller har du frågor om mig, mina projekt eller vill du bara diskutera kod och design? Hör gärna av dig så svarar jag så snart som möjligt.</p>
+            </div>
+            <div class="form-wrapper">
+              <form action="https://formspree.io/f/xjyvgldj" method="post">
+                <div class="name-email">
+                  <div class="input-wrapper">    
+                    <label for="name">Ditt namn*</label>
+                    <input type="text" id="name" name="name" required/>
+                  </div>
+                  <div class="input-wrapper">   
+                    <label for="email">Din mejl*</label>
+                    <input type="email" name="email" required/>
+                  </div>    
+                </div> 
+                <div class="subject-co">  
+                  <div class="input-wrapper">
+                    <label for="company">Ev. företag</label>
+                    <input type="text" id="company" name="company" />
+                  </div>  
+                  <div class="input-wrapper">
+                    <label for="_subject">Ämne*</label>
+                    <input type="text" id="subject" name="subject" required/>
+                  </div>
+                </div>   
+                <label>Vad har du på hjärtat?*</label>
+                <textarea name="message" required></textarea>
+                <button type="submit">Skicka</button>
+              </form>
+            </div>  
           </div>  
-        </div>  
+        </div>
       </section>
+      <footer class="footer-wrapper">
+        <div class="footer-content-wrapper">
+          
+          <div class="footer-logo-wrapper">
+            <p>© Lina Svärd 2026 · Front End Student & Grafisk Designer</p>
+          </div>
+          <div class="footer-links-wrapper">
+            <a href="#projects">Projekt</a>
+            <a href="#about">Om mig</a>
+            <a href="#contact">Kontakt</a>
+            <a href="/gallery.html">CV</a>
+          </div>
+          
+        </div>
+        
+      </footer>
     </main>
     <script type="module" src="/src/main.ts"></script>
   </body>

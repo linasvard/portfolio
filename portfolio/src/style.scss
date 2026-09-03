@@ -5,15 +5,18 @@
 @use "./projects";
 @use "./about";
 @use "./tech";
+@use "./contact";
+@use "./experience";
 
 :root {
   --primary-color: rgb(35, 1, 43);
   --secondary-color: rgb(255, 246, 246);
-  --third-color: #ff399f;
+  --third-color: rgb(255, 57, 159);
   --accent-color: rgb(234, 234, 234);
   --gradient-color: rgb(222, 192, 229);
   --gradient-color2: #ffca91;
   --gradient-color3: #171717;
+  --third-faded: rgba(255, 57, 159, 0.1);
 }
 
 * {
@@ -29,14 +32,14 @@ body {
   margin: 0;
   color: var(--primary-color);
   background-color: var(--secondary-color);
-  padding: 0 30px;
+  
 }
 
 main {
-  max-width: 1450px;
+ 
   margin: 0 auto;
   width: 100%;
-  padding: 10px 0;
+  
 }
 
 header {
@@ -82,6 +85,59 @@ h2 {
   color: var(--third-color);
 }
 
+.hero-section a,
+.about-section a {
+  text-decoration: none;
+  font-weight: 600;
+  padding: 15px 30px;
+  border-radius: 3px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  text-transform: uppercase;
+
+
+   &:hover {
+      background-color: var(--third-color);
+      color: var(--secondary-color);
+    }
+
+}
+
+
 .section-subheading span {
   color: var(--primary-color);
 }
+
+
+.tech-stack-section,
+.about-section,
+.contact-section-wrapper,
+.experience-section {
+  padding: 10px 40px;
+  max-width: 1350px;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.tech-stack-section {
+  margin-bottom: 30px;
+}
+
+.projects-wrapper {
+  padding: 10px 40px;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+
+@media (max-width: 768px) {
+  
+  .projects-wrapper,
+  .tech-stack-section,
+  .contact-section {
+
+    padding: 0;
+  } 
+}
+
