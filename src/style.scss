@@ -23,6 +23,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  min-width: 0;
 }
 
 body {
@@ -135,9 +136,10 @@ h2 {
   .projects-wrapper,
   .tech-stack-section,
   .contact-section-wrapper,
-  .experience-section {
+  .experience-section,
+  .about-section {
     
-    padding: 30px;
+    padding: 0 25px;
   }
 
   p {
