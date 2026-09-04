@@ -13,9 +13,9 @@
 }
 
 .experience-item-wrapper {
-    padding: 30px 40px;
+    padding: 25px 30px;
     border-radius: 7px;
-    border: 1.5px solid var(--third-color);
+    border: 1px solid var(--third-color);
     height: 100%;
     width: 100%;
 
@@ -79,6 +79,26 @@
     }
 }
 
+
+// Tablet
+@media (min-width: 601px) and (max-width: 1024px) {
+    
+ 
+    
+}
+
+
+
+// Mobile view
+@media (max-width: 600px) {
+
+
+}
+
+// Tablet & mobile
 @media (max-width: 1024px) {
+    .experience-wrapper {
+        
+    }
     
 }
