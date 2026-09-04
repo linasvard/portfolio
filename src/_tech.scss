@@ -70,6 +70,9 @@
 
 }
 
+.arrow-right {
+    display: block;
+}
 .arrow-down {
     display: none;
 }
@@ -80,9 +83,10 @@
 
 // Tablet
 @media (min-width: 601px) and (max-width: 1024px) {
-    
- 
-    
+    .arrow-down {
+        text-align: left;
+    }
+
 }
 
 
@@ -90,7 +94,9 @@
 // Mobile view
 
 @media (max-width: 600px) {
-
+    .arrow-down {
+        text-align: center;
+    }
 
 }
 
@@ -112,9 +118,8 @@
 
     .arrow-down {
         display: block;
-        text-align: right;
         margin: 0 auto;
-        padding: 30px 0 0 0;
+        padding: 40px 0 0 0;
     }
 
 }
