@@ -144,5 +144,16 @@
     #navbarMobile {
         display: block;
     }
+
     
+    
+}
+
+@media (max-width: 1024px) {
+    .white svg {
+        stroke: var(--secondary-color);
+        width: 25px;
+        height: 100%;
+    }
+
 }
