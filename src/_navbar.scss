@@ -33,6 +33,32 @@
     align-items: center;
 }
 
+.download-cv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+
+  
+
+    svg {
+        width: 22px;
+        stroke: var(--primary-color);
+    }
+}
+
+.download-cv:hover {
+    svg {
+    stroke: var(--third-color);
+    }
+}
+
+
+.download-cv-svg {
+    margin-top: 2px;
+}
+
+
 .menu-links-right {
     display: flex;
     justify-content: flex-end;
