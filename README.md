@@ -32,6 +32,8 @@ Gedigna kunskaper inom HTML, CSS, Sass, JavaScript och TypeScript, samt grafisk 
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=MongoDB&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white)
 ![GSAP](https://img.shields.io/badge/GSAP-A0E02A?style=for-the-badge&logo=greensock&logoColor=black)
+![Express](https://img.shields.io/badge/VERCEL-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
 
 #### Grafisk formgivning
 
