@@ -1,6 +1,17 @@
 [
     {
         "id": "1",
+        "title": "The Library",
+        "image": "./the-library.jpg",
+        "description": "Fullstack-bokapp med Express, TypeScript och MongoDB. Besökare bläddrar och recenserar böcker, medan admin hanterar innehåll via JWT-skyddad panel. Live på Vercel.",
+        "description_mobile": "Fullstack-bokapp med Express, TypeScript och MongoDB: besökare recenserar böcker, admin hanterar innehåll via JWT-skyddad panel.",
+        "github": "https://github.com/linasvard/the-library",
+        "demo": "https://this-is-the-library.vercel.app/",
+        "tag_1": "grupparbete",
+        "tag_2": "fullstack"
+    },
+    {
+        "id": "2",
         "title": "IKEA Escape Room",
         "image": "./ikea-escape-room.jpg",
         "description": "Ett IKEA-escape room byggt från grunden i TypeScript, HTML, SASS och Vite. Skapat agilt i grupp på Medieinstitutet där vi byggt modulär kod, LocalStorage-timer och unika spelrum utan externa ramverk.",
@@ -11,7 +22,7 @@
         "tag_2": "frontend"
     },
     {
-        "id": "2",
+        "id": "3",
         "title": "Negative Space",
         "image": "./negative-space.jpg",
         "description_mobile": "En designöverlämning mellan två grupper, på samarbetet mellan designer och utvecklare.",
@@ -22,7 +33,7 @@
         "tag_2": "frontend"
     },
     {
-        "id": "3",
+        "id": "4",
         "title": "Min Budget",
         "image": "./min-budget.jpg",
         "description": "En responsiv TypeScript-app för ekonomispårning som sparar transaktioner i LocalStorage. Innehåller dynamisk balans, raderbara poster, JSON-inlästa kategorier samt egna tillägg som formvalidering och datumstämplar.",
@@ -33,7 +44,7 @@
         "tag_2": "frontend"
     },
        {
-        "id": "4",
+        "id": "5",
         "title": "Gottfrids Munkfabrik",
         "image": "./munkfabrik.jpg",
         "description": "En responsiv e-handel för munkar byggd i Vanilla JS. Innehåller sortering/filtrering, varukorg, validering, dynamiska rabatter och prispåslag baserade på tid och antal, med fokus på ren kod och funktionell logik.",
